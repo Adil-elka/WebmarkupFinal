@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en" >
+
+<!--
+Het toevoegen van een auteur, invoegen van een favicon , compact maken voor andere devices, zoekteremen
+die kunnen worden opgezocht door middel van zoekmachines,toevoegen van de stylesheet in een intern bestand.
+instellen van de achtergrond als video.
+-->
+<head>
+	<meta charset = "utf-8" >
+	<meta name="author" content="Adil El.Kaderi">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Coco Not, Games, Online, Boardgames">
+	<link rel = "stylesheet" href = "css/style.css" >
+	<video autoplay loop id="video-background" muted plays-inline>
+		<source src="movie/background.mp4" type="video/mp4">
+	</video>
+	<title>Contact</title>
+</head>
+
+<body>
+
+	<header class="TopBox">
+		<h1>Coco Not</h1>
+	</header>
+
+	<nav class="menu">
+		<a href="index.html">HOME</a>
+		<a href="product.html">PRODUCT</a>
+		<a href="http://www.blogger.com ">BLOG</a>
+	</nav>
+
+	<figure class="kader_product">
+		<h2>CONTACT</h2>
+	</figure>
+
+<form action="nowhere.php" method="post">
+<br>
+	<label>More information</label>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="blank"
+				name="topic name"
+				placeholder="Select topic"				
+		/>
+		<select>
+			<option value="general">General inquiries</option>
+			<option value="press">Press relations</option>
+			<option value="recruitement">Recruitement</option>
+		</select>
+	</fieldset>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="text"
+				name="contactFormName"
+				placeholder="Your name.."
+		/>
+	</fieldset>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="email"
+				name="email"
+				placeholder="Your email.."
+		/>
+	</fieldset>
+	<fieldset>
+		<textarea
+				rows="7"
+				cols="40"
+				name="message"
+				placeholder="Write something.."
+		></textarea>
+	</fieldset>
+	<input
+			type="submit"
+			value="Submit"
+	/>
+</form>
+<!--
+Toevoegen van een Footer
+-->
+	<footer class="footer">
+		<p>2018 - Adil El.Kaderi - Inholland</p>
+	</footer>
+</body>
+</html>
