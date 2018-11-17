@@ -220,16 +220,8 @@ textarea
 		margin-left: auto;
 		margin-right: auto;
 	}
-	h2
+	h2 , h1
 	{
-		font-size: 1em;
-	}
-	h1
-	{
-		font-size:1em;
-	}
-		.Tabel
-	{
-		display: none;
+		font-size: 3em;
 	}
 }
